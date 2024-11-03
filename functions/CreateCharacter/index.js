@@ -1,7 +1,6 @@
 const response = require('../../responses/index').default;
-
+const names = require('../../data/names.json')
 exports.handler = async (event) => {
-  const name = event.queryStringParameters?.name === undefined ? 'John Doe' : event.queryStringParameters.name;
   const baseStats= {
     strength: 2,
     hp: 1,
@@ -9,15 +8,24 @@ exports.handler = async (event) => {
     defense:1
   }
 
-  const character = {
-    name: name,
-    race: 'Human',
-    strength: Math.ceil(Math.random() * 5) + baseStats.strength,
-    hp: (Math.ceil(Math.random() * 3) + baseStats.hp)*10,
-    speed: Math.ceil(Math.random() * 3) + baseStats.speed,
-    defense: Math.ceil(Math.random() * 5)+baseStats.defense
+  const characters = [];
+  for(let i=0; i<3; i++){
+
+    const gender = Math.random() < 0.5? 'male': 'female';
+
+
+    characters.push({
+      name: names.human[gender][Math.floor(Math.random()*names.human[gender].length)],
+      gender: gender,
+      race: 'Human',
+      strength: Math.ceil(Math.random() * 5) + baseStats.strength,
+      hp: (Math.ceil(Math.random() * 3) + baseStats.hp)*10,
+      speed: Math.ceil(Math.random() * 3) + baseStats.speed,
+      defense: Math.ceil(Math.random() * 5)+baseStats.defense  
+    })
   }
 
+
   
-  return response(200, character);
+  return response(200, characters);
 };

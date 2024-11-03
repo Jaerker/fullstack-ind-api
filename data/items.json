@@ -1,0 +1,136 @@
+{
+    "itemTypes": [
+        {
+            "name": "Armor",
+            "properties": [
+                {
+                    "type": "Leather Boots",
+                    "defense": 2,
+                    "speed": 10,
+                    "weight": 3,
+                    "value": 15
+                },
+                {
+                    "type": "Iron Helmet",
+                    "defense": 5,
+                    "weight": 4,
+                    "value": 40
+                }
+            ]
+        },
+        {
+            "name": "Weapons",
+            "properties": [
+                {
+                    "type": "Wooden Staff",
+                    "attack": 3,
+                    "weight": 1,
+                    "value": 10
+                },
+                {
+                    "type": "Iron Bow",
+                    "attack": 5,
+                    "weight": 2,
+                    "value": 25
+                }
+            ]
+        },
+        {
+            "name": "Consumables",
+            "properties": [
+                {
+                    "type": "Potion of Speed",
+                    "stat": "speed",
+                    "amount": 20,
+                    "weight": 1,
+                    "value": 20
+                },
+                {
+                    "type": "Healing Salve",
+                    "stat": "health",
+                    "heal": 5,
+                    "weight": 0.5,
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "name": "Currency",
+            "properties": [
+                {
+                    "type": "Gold Coin",
+                    "value": 5
+                }
+            ]
+        },
+        {
+            "name": "Miscellaneous",
+            "properties": [
+                {
+                    "type": "Ring of Agility",
+                    "stat": "agility",
+                    "amount": 15,
+                    "weight": 1,
+                    "value": 25
+                },
+                {
+                    "type": "Amulet of Intelligence",
+                    "stat": "intelligence",
+                    "amount": 10,
+                    "weight": 2,
+                    "value": 30
+                }
+            ]
+        }
+    ],
+    "itemTemplates": [
+        {
+            "name": "Basic Item",
+            "properties": {
+                "type": "",
+                "defense": 0,
+                "attack": 0,
+                "stat": "",
+                "amount": 0,
+                "weight": 0,
+                "value": 0
+            }
+        },
+        {
+            "name": "Armor Item",
+            "properties": {
+                "type": "armor",
+                "defense": 0,
+                "speed": 0,
+                "weight": 0,
+                "value": 0
+            }
+        },
+        {
+            "name": "Weapon Item",
+            "properties": {
+                "type": "weapon",
+                "attack": 0,
+                "weight": 0,
+                "value": 0
+            }
+        },
+        {
+            "name": "Consumable Item",
+            "properties": {
+                "type": "consumable",
+                "stat": "",
+                "amount": 0,
+                "weight": 0,
+                "value": 0
+            }
+        },
+        {
+            "name": "Currency Item",
+            "properties": {
+                "type": "currency",
+                "value": 0
+            }
+        }
+    ]
+}

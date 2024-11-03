@@ -1,0 +1,177 @@
+{
+    "enemies": [
+        {
+            "name": "Goblin Scout",
+            "hp": 10,
+            "agility": 2,
+            "defense": 1,
+            "strength": 1,
+            "speed": 3,
+            "abilities":[],
+            "exp": 10
+        },
+        {
+            "name": "Orc Warrior",
+            "hp": 20,
+            "agility": 1,
+            "defense": 2,
+            "strength": 3,
+            "speed": 2,
+            "abilities":[{
+                "name": "Tackle",
+                "description": "A powerful tackle attack that deals damage to the target.",
+                "damage": 5,
+                "effect": null
+            }],
+            "exp": 10
+        },
+        {
+            "name": "Troll",
+            "hp": 30,
+            "agility": 0.5,
+            "defense": 3,
+            "strength": 4,
+            "speed": 1,
+            "abilities":[],
+            "exp": 20
+        },
+        {
+            "name": "Giant Spider",
+            "hp": 25,
+            "agility": 2,
+            "defense": 2,
+            "strength": 2,
+            "speed": 3,
+            "abilities":[{
+                "name": "Web Spray",
+                "description": "The giant spider sprays webs at the target, slowing it down and making it harder to move.",
+                "damage": 0,
+                "effect": {
+                    "type": "slow",
+                    "duration": 2
+                }
+            }],
+            "exp": 25
+        },
+        {
+            "name": "Kobold Archer",
+            "hp": 15,
+            "agility": 3,
+            "defense": 1,
+            "strength": 1,
+            "speed": 4,
+            "abilities":[{
+                "name": "Rapid Fire",
+                "description": "The kobold archer fires rapidly at the target, dealing damage over time.",
+                "damage": 3,
+                "effect": {
+                    "type": "do damage over time",
+                    "duration": 1
+                }
+            }],
+            "exp": 25
+        },
+        {
+            "name": "Dwarf Miner",
+            "hp": 20,
+            "agility": 2,
+            "defense": 3,
+            "strength": 2,
+            "speed": 2,
+            "abilities":[],
+            "exp": 30
+        },
+        {
+            "name": "Gnome Wizard",
+            "hp": 10,
+            "agility": 1.5,
+            "defense": 2,
+            "strength": 1,
+            "speed": 3,
+            "abilities":[{
+                "name": "Magic Missile",
+                "description": "A magical missile shoots towards the target, dealing damage and possibly hitting multiple times.",
+                "damage": 7,
+                "effect": {
+                    "type": "critical hit",
+                    "probability": 0.2
+                }
+            }]
+        },
+        {
+            "name": "Centaur Archer",
+            "hp": 25,
+            "agility": 3,
+            "defense": 2,
+            "strength": 2,
+            "speed": 4,
+            "abilities":[{
+                "name": "Rapid Fire",
+                "description": "The kobold archer fires rapidly at the target, dealing damage over time.",
+                "damage": 3,
+                "effect": {
+                    "type": "do damage over time",
+                    "duration": 1
+                }
+            }]
+        },
+        {
+            "name": "Minotaur",
+            "hp": 40,
+            "agility": 1.5,
+            "defense": 4,
+            "strength": 5,
+            "speed": 2,
+            "abilities":[]
+        },
+        {
+            "name": "Dragon Hatchling",
+            "hp": 50,
+            "agility": 0.5,
+            "defense": 3,
+            "strength": 6,
+            "speed": 1,
+            "abilities":[] 
+        },
+        {
+            "name": "Giant Wolf",
+            "hp": 35,
+            "agility": 2,
+            "defense": 2,
+            "strength": 4,
+            "speed": 3,
+            "abilities":[{
+                "name": "Pack Tactics",
+                "description": "The giant wolf uses its pack tactics to deal more damage to the target and increase its own speed.",
+                "damage": 10,
+                "effect": {
+                    "type": "increase damage and speed",
+                    "duration": 1
+                }
+            }]
+        },
+        {
+            "name": "Ogre",
+            "hp": 60,
+            "agility": 1,
+            "defense": 5,
+            "strength": 7,
+            "speed": 2,
+            "abilities":[]
+        },
+        {
+            "name": "Harpy",
+            "hp": 20,
+            "agility": 4,
+            "defense": 2,
+            "strength": 1,
+            "speed": 5,
+            "abilities":[{
+                "name": "Aerial Attack",
+                "description": "The harpy swoops down from the air, dealing damage to the target.",
+                "damage": 8,
+                "effect": null
+            }]
+        }
+    ]
+}
