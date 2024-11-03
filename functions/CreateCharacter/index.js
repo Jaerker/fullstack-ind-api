@@ -15,7 +15,8 @@ exports.handler = async (event) => {
     strength: Math.ceil(Math.random() * 5) + baseStats.strength,
     hp: (Math.ceil(Math.random() * 3) + baseStats.hp)*10,
     speed: Math.ceil(Math.random() * 3) + baseStats.speed,
-    defense: Math.ceil(Math.random() * 5)+baseStats.defense
+    defense: Math.ceil(Math.random() * 5)+baseStats.defense,
+    level:1
   }
 
   
