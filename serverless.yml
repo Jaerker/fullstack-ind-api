@@ -19,3 +19,9 @@ functions:
       - httpApi:
           path: /character
           method: get
+  GetEnemy:
+    handler: functions/GetEnemy/index.handler
+    events:
+      - httpApi:
+          path: /enemy
+          method: get

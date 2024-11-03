@@ -1,0 +1,12 @@
+{
+    "characters":[
+        {
+            "race":"Human",
+            "strength": 2,
+            "hp": 1,
+            "speed": 2,
+            "defense":1
+        }
+        
+    ]
+}
