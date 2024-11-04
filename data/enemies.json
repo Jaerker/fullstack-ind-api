@@ -1,6 +1,7 @@
 {
     "enemies": [
         {
+            "id":0,
             "name": "Goblin Scout",
             "hp": 10,
             "agility": 2,
@@ -8,9 +9,28 @@
             "strength": 1,
             "speed": 3,
             "abilities":[],
-            "exp": 10
+            "exp": 10,
+            "drops":{
+                "currency":[
+                {
+                    "type":"Gold Coin",
+                    "amount":5,
+                    "probability":0.95
+                }
+                ],
+                "consumables":[
+                    {
+                        "type":"Healing Salve",
+                        "amount":1,
+                        "probability":0.25
+                    }
+                ],
+                "weapons":[],
+                "armor":[]
+            }
         },
         {
+            "id":1,
             "name": "Orc Warrior",
             "hp": 20,
             "agility": 1,
@@ -23,9 +43,27 @@
                 "damage": 5,
                 "effect": null
             }],
-            "exp": 10
+            "exp": 10,
+            "drops":{
+                "currency":[
+                {
+                    "type":"Gold Coin",
+                    "amount":5,
+                    "probability":1
+                }
+                ],
+                "consumables":[
+                ],
+                "weapons":[{
+                    "type":"Traveler's Sword",
+                    "amount":1,
+                    "probability":0.15
+                }],
+                "armor":[]
+            }
         },
         {
+            "id":2,
             "name": "Troll",
             "hp": 30,
             "agility": 0.5,
@@ -33,9 +71,33 @@
             "strength": 4,
             "speed": 1,
             "abilities":[],
-            "exp": 20
+            "exp": 20,
+            "drops":{
+                "currency":[
+                {
+                    "type":"Gold Coin",
+                    "amount":10,
+                    "probability":0.25
+                }
+                ],
+                "consumables":[
+                    {
+                        "type":"Potion of Speed",
+                        "amount":1,
+                        "probability":0.25
+                    }
+                ],
+                "weapons":[],
+                "armor":[{
+                    "type":"Leather Boots",
+                    "amount":1,
+                    "probability":0.1
+                }]
+            }
+            
         },
         {
+            "id":3,
             "name": "Giant Spider",
             "hp": 25,
             "agility": 2,
@@ -51,9 +113,25 @@
                     "duration": 2
                 }
             }],
-            "exp": 25
+            "exp": 25,
+            "drops":{
+                "currency":[],
+                "consumables":[],
+                "weapons":[],
+                "armor":[{
+                    "type":"Leather Boots",
+                    "amount":1,
+                    "probability":0.2
+                },
+                {
+                    "type":"Iron Helmet",
+                    "amount":1,
+                    "probability":0.25
+                }]
+            }
         },
         {
+            "id":4,
             "name": "Kobold Archer",
             "hp": 15,
             "agility": 3,
@@ -69,9 +147,24 @@
                     "duration": 1
                 }
             }],
-            "exp": 25
+            "exp": 25,
+            "drops":{
+                "currency":[{
+                    "type":"Gold Coin",
+                    "amount":10,
+                    "probability":0.8
+                }],
+                "consumables":[],
+                "weapons":[],
+                "armor":[{
+                    "type":"Leather Boots",
+                    "amount":1,
+                    "probability":0.2
+                }]
+            }
         },
         {
+            "id":5,
             "name": "Dwarf Miner",
             "hp": 20,
             "agility": 2,
@@ -79,9 +172,24 @@
             "strength": 2,
             "speed": 2,
             "abilities":[],
-            "exp": 30
+            "exp": 30,
+            "drops":{
+                "currency":[{
+                    "type":"Gold Coin",
+                    "amount":20,
+                    "probability":1
+                }],
+                "consumables":[],
+                "weapons":[],
+                "armor":[{
+                    "type":"Leather Boots",
+                    "amount":1,
+                    "probability":0.2
+                }]
+            }
         },
         {
+            "id":6,
             "name": "Gnome Wizard",
             "hp": 10,
             "agility": 1.5,
@@ -96,9 +204,30 @@
                     "type": "critical hit",
                     "probability": 0.2
                 }
-            }]
+            }],
+            "exp":35,
+            "drops":{
+                "currency":[{
+                    "type":"Gold Coin",
+                    "amount":7,
+                    "probability":0.85
+                },
+                {
+                    "type":"Gold Coin",
+                    "amount":7,
+                    "probability":0.85
+                }],
+                "consumables":[],
+                "weapons":[],
+                "armor":[{
+                    "type":"Leather Boots",
+                    "amount":1,
+                    "probability":0.2
+                }]
+            }
         },
         {
+            "id":7,
             "name": "Centaur Archer",
             "hp": 25,
             "agility": 3,
@@ -113,27 +242,75 @@
                     "type": "do damage over time",
                     "duration": 1
                 }
-            }]
+            }],
+            "exp":35,
+            "drops":{
+                "currency":[{
+                    "type":"Gold Coin",
+                    "amount":5,
+                    "probability":0.6
+                }],
+                "consumables":[],
+                "weapons":[],
+                "armor":[{
+                    "type":"Leather Boots",
+                    "amount":1,
+                    "probability":0.2
+                }]
+            }
         },
         {
+            "id":8,
             "name": "Minotaur",
             "hp": 40,
             "agility": 1.5,
             "defense": 4,
             "strength": 5,
             "speed": 2,
-            "abilities":[]
+            "abilities":[],
+            "exp":40,
+            "drops":{
+                "currency":[],
+                "consumables":[],
+                "weapons":[],
+                "armor":[{
+                    "type":"Leather Boots",
+                    "amount":1,
+                    "probability":0.9
+                }]
+            }
         },
         {
+            "id":9,
             "name": "Dragon Hatchling",
             "hp": 50,
             "agility": 0.5,
             "defense": 3,
             "strength": 6,
             "speed": 1,
-            "abilities":[] 
+            "abilities":[], 
+            "exp":40,
+            "drops":{
+                "currency":[],
+                "consumables":[{
+                    "type":"Healing Salve",
+                    "amount":1,
+                    "probability":0.9
+                },{
+                    "type":"Healing Salve",
+                    "amount":1,
+                    "probability":0.25
+                }],
+                "weapons":[],
+                "armor":[{
+                    "type":"Leather Boots",
+                    "amount":1,
+                    "probability":0.2
+                }]
+            }
         },
         {
+            "id":10,
             "name": "Giant Wolf",
             "hp": 35,
             "agility": 2,
@@ -148,18 +325,42 @@
                     "type": "increase damage and speed",
                     "duration": 1
                 }
-            }]
+            }],
+            "exp":50,
+            "drops":{
+                "currency":[],
+                "consumables":[],
+                "weapons":[],
+                "armor":[{
+                    "type":"Leather Boots",
+                    "amount":1,
+                    "probability":0.2
+                }]
+            }
         },
         {
+            "id":11,
             "name": "Ogre",
             "hp": 60,
             "agility": 1,
             "defense": 5,
             "strength": 7,
             "speed": 2,
-            "abilities":[]
+            "abilities":[],
+            "exp":40,
+            "drops":{
+                "currency":[],
+                "consumables":[],
+                "weapons":[],
+                "armor":[{
+                    "type":"Leather Boots",
+                    "amount":1,
+                    "probability":0.5
+                }]
+            }
         },
         {
+            "id":12,
             "name": "Harpy",
             "hp": 20,
             "agility": 4,
@@ -171,7 +372,18 @@
                 "description": "The harpy swoops down from the air, dealing damage to the target.",
                 "damage": 8,
                 "effect": null
-            }]
+            }],
+            "exp":45,
+            "drops":{
+                "currency":[],
+                "consumables":[],
+                "weapons":[],
+                "armor":[{
+                    "type":"Leather Boots",
+                    "amount":1,
+                    "probability":0.2
+                }]
+            }
         }
     ]
 }

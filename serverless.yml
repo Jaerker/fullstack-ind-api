@@ -13,7 +13,7 @@ provider:
   deploymentMethod: direct
 
 functions:
-  hello:
+  CreateCharacters:
     handler: functions/CreateCharacter/index.handler
     events:
       - httpApi:
@@ -24,4 +24,10 @@ functions:
     events:
       - httpApi:
           path: /enemy
+          method: get
+  GetLoot:
+    handler: functions/GetLoot/index.handler
+    events:
+      - httpApi:
+          path: /loot/{id}
           method: get

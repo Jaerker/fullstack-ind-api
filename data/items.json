@@ -1,7 +1,8 @@
 {
     "itemTypes": [
         {
-            "name": "Armor",
+            "name": "armor",
+            "probability":0.25,
             "properties": [
                 {
                     "type": "Leather Boots",
@@ -19,7 +20,8 @@
             ]
         },
         {
-            "name": "Weapons",
+            "name": "weapons",
+            "probability":0.25,
             "properties": [
                 {
                     "type": "Wooden Staff",
@@ -32,11 +34,19 @@
                     "attack": 5,
                     "weight": 2,
                     "value": 25
+                },
+                {
+                    "type": "Traveler's Sword",
+                    "attack": 5,
+                    "weight": 2,
+                    "value": 20
                 }
+
             ]
         },
         {
-            "name": "Consumables",
+            "name": "consumables",
+            "probability":1,
             "properties": [
                 {
                     "type": "Potion of Speed",
@@ -55,28 +65,30 @@
             ]
         },
         {
-            "name": "Currency",
+            "name": "currency",
+            "probability":1,
             "properties": [
                 {
                     "type": "Gold Coin",
-                    "value": 5
+                    "value": 1
                 }
             ]
         },
         {
-            "name": "Miscellaneous",
+            "name": "miscellaneous",
             "properties": [
                 {
                     "type": "Ring of Agility",
                     "stat": "agility",
-                    "amount": 15,
+                    "amount": 5,
                     "weight": 1,
                     "value": 25
+                    
                 },
                 {
                     "type": "Amulet of Intelligence",
                     "stat": "intelligence",
-                    "amount": 10,
+                    "amount": 5,
                     "weight": 2,
                     "value": 30
                 }
