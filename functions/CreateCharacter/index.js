@@ -1,5 +1,6 @@
 const response = require('../../responses/index').default;
 const names = require('../../data/names.json')
+const images = require('../../data/images.json');
 exports.handler = async (event) => {
   const baseStats= {
     strength: 2,
@@ -21,7 +22,8 @@ exports.handler = async (event) => {
       strength: Math.ceil(Math.random() * 5) + baseStats.strength,
       hp: (Math.ceil(Math.random() * 3) + baseStats.hp)*10,
       speed: Math.ceil(Math.random() * 3) + baseStats.speed,
-      defense: Math.ceil(Math.random() * 5)+baseStats.defense  
+      defense: Math.ceil(Math.random() * 5)+baseStats.defense,
+      img: images.human[gender][Math.floor(Math.random()*images.human[gender].length)]
     })
   }
 

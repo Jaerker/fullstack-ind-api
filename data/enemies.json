@@ -27,7 +27,8 @@
                 ],
                 "weapons":[],
                 "armor":[]
-            }
+            },
+            "img":"https://rpg-api-img-bucket.s3.eu-north-1.amazonaws.com/monsters/goblin-scout.png"
         },
         {
             "id":1,
@@ -60,7 +61,8 @@
                     "probability":0.15
                 }],
                 "armor":[]
-            }
+            },
+            "img":"https://rpg-api-img-bucket.s3.eu-north-1.amazonaws.com/monsters/orc-warrior.png"
         },
         {
             "id":2,
@@ -93,8 +95,8 @@
                     "amount":1,
                     "probability":0.1
                 }]
-            }
-            
+            },
+            "img":"https://rpg-api-img-bucket.s3.eu-north-1.amazonaws.com/monsters/troll.png"
         },
         {
             "id":3,
@@ -128,7 +130,8 @@
                     "amount":1,
                     "probability":0.25
                 }]
-            }
+            },
+            "img":"https://rpg-api-img-bucket.s3.eu-north-1.amazonaws.com/monsters/giant-spider.png"
         },
         {
             "id":4,
@@ -161,7 +164,8 @@
                     "amount":1,
                     "probability":0.2
                 }]
-            }
+            },
+            "img":"https://rpg-api-img-bucket.s3.eu-north-1.amazonaws.com/monsters/kobold-archer.png"
         },
         {
             "id":5,
@@ -186,7 +190,8 @@
                     "amount":1,
                     "probability":0.2
                 }]
-            }
+            },
+            "img":"https://rpg-api-img-bucket.s3.eu-north-1.amazonaws.com/monsters/minotaur.png"
         },
         {
             "id":6,
@@ -224,7 +229,8 @@
                     "amount":1,
                     "probability":0.2
                 }]
-            }
+            },
+            "img":"https://rpg-api-img-bucket.s3.eu-north-1.amazonaws.com/monsters/gnome-wizard.png"
         },
         {
             "id":7,
@@ -257,7 +263,8 @@
                     "amount":1,
                     "probability":0.2
                 }]
-            }
+            },
+            "img":"https://rpg-api-img-bucket.s3.eu-north-1.amazonaws.com/monsters/centaur-archer.png"
         },
         {
             "id":8,
@@ -278,7 +285,8 @@
                     "amount":1,
                     "probability":0.9
                 }]
-            }
+            },
+            "img":"https://rpg-api-img-bucket.s3.eu-north-1.amazonaws.com/monsters/minotaur.png"
         },
         {
             "id":9,
@@ -307,7 +315,9 @@
                     "amount":1,
                     "probability":0.2
                 }]
-            }
+            },
+            "img":"https://rpg-api-img-bucket.s3.eu-north-1.amazonaws.com/monsters/dragon-hatchling.png"
+
         },
         {
             "id":10,
@@ -336,7 +346,8 @@
                     "amount":1,
                     "probability":0.2
                 }]
-            }
+            },
+            "img":"https://rpg-api-img-bucket.s3.eu-north-1.amazonaws.com/monsters/giant-wolf.png"
         },
         {
             "id":11,
@@ -357,7 +368,8 @@
                     "amount":1,
                     "probability":0.5
                 }]
-            }
+            },
+            "img":"https://rpg-api-img-bucket.s3.eu-north-1.amazonaws.com/monsters/ogre.png"
         },
         {
             "id":12,
@@ -383,7 +395,8 @@
                     "amount":1,
                     "probability":0.2
                 }]
-            }
+            },
+            "img":"https://rpg-api-img-bucket.s3.eu-north-1.amazonaws.com/monsters/harpy.png"
         }
     ]
 }
